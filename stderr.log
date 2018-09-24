@@ -447,3 +447,7 @@
 2018-09-24 18:23:17,143 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [181]: Error check finished, result = False, time = 4.3s
 2018-09-24 18:23:21,300 - DEBUG - [MainThread] cura.AutoSave._onTimeout [49]: Autosaving preferences, instances and profiles
 2018-09-24 18:24:45,209 - DEBUG - [MainThread] cura.AutoSave._onTimeout [49]: Autosaving preferences, instances and profiles
+2018-09-24 18:31:06,081 - DEBUG - [MainThread] UM.Qt.QtApplication.windowClosed [379]: Shutting down cura
+2018-09-24 18:31:06,227 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [276]: Attempting to kill the engine process
+2018-09-24 18:31:06,227 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [282]: Killing engine process
+2018-09-24 18:31:06,232 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [285]: Engine process is killed. Received return code 1

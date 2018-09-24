@@ -1,0 +1,19 @@
+[MainThread] UM.Qt.QtApplication.__init__ [68]: Adding QT5 plugin path: C:\Program Files\Ultimaker Cura 3.4\PyQt5\plugins
+[MainThread] UM.Qt.QtApplication.__init__ [78]: Adding QT5 plugin path: C:\Program Files\Ultimaker Cura 3.4\PyQt5\plugins
+[MainThread] UM.Resources.__initializeStoragePaths [407]: Initializing storage paths
+[MainThread] UM.Resources.__initializeStoragePaths [418]: Config storage path is C:\Users\emill\AppData\Roaming\cura\3.4
+[MainThread] UM.Resources.__initializeStoragePaths [426]: Data storage path is C:\Users\emill\AppData\Roaming\cura\3.4
+[MainThread] UM.Resources.__initializeStoragePaths [438]: Cache storage path is C:\Users\emill\AppData\Local\cura\3.4\cache
+[MainThread] UM.Resources._copyLatestDirsIfPresent [456]: Found config: ['C:\\Users\\emill\\AppData\\Roaming\\cura', 'C:\\Users\\emill\\AppData\\Local\\cura'] and data: ['C:\\Users\\emill\\AppData\\Roaming\\cura', 'C:\\Users\\emill\\AppData\\Local\\cura']
+[MainThread] UM.Resources._copyLatestDirsIfPresent [460]: Latest config path: None and latest data path: None
+[MainThread] UM.View.GL.OpenGLContext.detectBestOpenGLVersion [103]: Trying OpenGL context 4.1...
+[MainThread] UM.View.GL.OpenGLContext.detectBestOpenGLVersion [119]: Trying OpenGL context 2.0...
+[MainThread] UM.View.GL.OpenGLContext.detectBestOpenGLVersion [128]: We got at least OpenGL context 2.0: 4.0 Compatibility profile
+[MainThread] UM.Qt.QtApplication.__init__ [105]: Detected most suitable OpenGL context version: 2.0 No profile
+[MainThread] UM.Qt.QtApplication.__init__ [121]: Command line arguments: {'trigger_early_crash': False, 'headless': False, 'debug': False, 'disable-textures': False, 'external-backend': False, 'single_instance': False, 'file': [], 'qmljsdebugger': None}
+[MainThread] cura.CuraPackageManager._loadManagementData [64]: Loaded bundled packages data from C:\Program Files\Ultimaker Cura 3.4\resources\bundled_packages.json
+[MainThread] cura.CuraPackageManager._loadManagementData [68]: User package management file C:\Users\emill\AppData\Roaming\cura\3.4\packages.json doesn't exist, do nothing
+[MainThread] cura.CuraPackageManager._saveManagementData [93]: Package management file C:\Users\emill\AppData\Roaming\cura\3.4\packages.json was saved
+[MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin 3MFReader
+[MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin 3MFWriter
+[MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin ChangeLogPlugin
