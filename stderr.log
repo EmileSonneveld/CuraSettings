@@ -1,453 +1,224 @@
-2018-09-24 18:22:17,216 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin ConsoleLogger
-2018-09-24 18:22:17,247 - INFO - [MainThread] CuraEngineBackend.CuraEngineBackend.__init__ [72]: Found CuraEngine at: C:\Program Files\Ultimaker Cura 3.4\CuraEngine.exe
-2018-09-24 18:22:17,252 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin CuraEngineBackend
-2018-09-24 18:22:17,264 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin CuraProfileReader
-2018-09-24 18:22:17,280 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin CuraProfileWriter
-2018-09-24 18:22:17,294 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin OBJReader
-2018-09-24 18:22:17,309 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin OBJWriter
-2018-09-24 18:22:17,336 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin STLReader
-2018-09-24 18:22:17,353 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin STLWriter
-2018-09-24 18:22:17,368 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin FileLogger
-2018-09-24 18:22:17,440 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin FirmwareUpdateChecker
-2018-09-24 18:22:17,458 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin GCodeGzReader
-2018-09-24 18:22:17,475 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin GCodeGzWriter
-2018-09-24 18:22:17,494 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin GCodeProfileReader
-2018-09-24 18:22:17,533 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin GCodeReader
-2018-09-24 18:22:17,553 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin GCodeWriter
-2018-09-24 18:22:17,579 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin ImageReader
-2018-09-24 18:22:17,599 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin LegacyProfileReader
-2018-09-24 18:22:17,619 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin LocalContainerProvider
-2018-09-24 18:22:17,642 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin LocalFileOutputDevice
-2018-09-24 18:22:17,659 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin MachineSettingsAction
-2018-09-24 18:22:17,680 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin ModelChecker
-2018-09-24 18:22:17,700 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin MonitorStage
-2018-09-24 18:22:17,721 - WARNING - [MainThread] UM.Preferences.getValue [91]: Tried to get the value of non-existing setting cura/active_mode.
-2018-09-24 18:22:17,728 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin PerObjectSettingsTool
-2018-09-24 18:22:17,751 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin PostProcessingPlugin
-2018-09-24 18:22:17,769 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin PrepareStage
-2018-09-24 18:22:17,797 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin RemovableDriveOutputDevice
-2018-09-24 18:22:17,841 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin SimulationView
-2018-09-24 18:22:17,871 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin SliceInfoPlugin
-2018-09-24 18:22:17,895 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin SolidView
-2018-09-24 18:22:17,921 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin SupportEraser
-2018-09-24 18:22:17,971 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin Toolbox
-2018-09-24 18:22:18,002 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin CameraTool
-2018-09-24 18:22:18,032 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin MirrorTool
-2018-09-24 18:22:18,083 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin RotateTool
-2018-09-24 18:22:18,121 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin ScaleTool
-2018-09-24 18:22:18,153 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin SelectionTool
-2018-09-24 18:22:18,228 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin TranslateTool
-2018-09-24 18:22:18,297 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin UFPWriter
-2018-09-24 18:22:18,337 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin UltimakerMachineActions
-2018-09-24 18:22:18,484 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin UM3NetworkPrinting
-2018-09-24 18:22:18,513 - INFO - [Thread-4] UpdateChecker.UpdateCheckerJob.run [34]: Checking for new version of cura
-2018-09-24 18:22:18,524 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin UpdateChecker
-2018-09-24 18:22:18,606 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin USBPrinting
-2018-09-24 18:22:18,630 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin UserAgreement
-2018-09-24 18:22:18,672 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin VersionUpgrade21to22
-2018-09-24 18:22:18,706 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin VersionUpgrade22to24
-2018-09-24 18:22:18,742 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin VersionUpgrade25to26
-2018-09-24 18:22:18,789 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin VersionUpgrade26to27
-2018-09-24 18:22:18,819 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin VersionUpgrade27to30
-2018-09-24 18:22:18,847 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin VersionUpgrade30to31
-2018-09-24 18:22:18,878 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin VersionUpgrade32to33
-2018-09-24 18:22:18,905 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin VersionUpgrade33to34
-2018-09-24 18:22:18,936 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin SimpleView
-2018-09-24 18:22:18,981 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin X3DReader
-2018-09-24 18:22:19,029 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin XmlMaterialProfile
-2018-09-24 18:22:19,062 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [431]: Loaded plugin XRayView
-2018-09-24 18:22:19,089 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [124]: Looking for old configuration files to upgrade.
-2018-09-24 18:22:19,098 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\cura.log, skip it
-2018-09-24 18:22:19,104 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\packages.json, skip it
-2018-09-24 18:22:19,109 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\plugins.json, skip it
-2018-09-24 18:22:19,115 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\uranium.lock, skip it
-2018-09-24 18:22:19,122 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\cura.log, skip it
-2018-09-24 18:22:19,128 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\packages.json, skip it
-2018-09-24 18:22:19,133 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\plugins.json, skip it
-2018-09-24 18:22:19,139 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\uranium.lock, skip it
-2018-09-24 18:22:19,146 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\cura.log, skip it
-2018-09-24 18:22:19,152 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\packages.json, skip it
-2018-09-24 18:22:19,158 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\plugins.json, skip it
-2018-09-24 18:22:19,163 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\uranium.lock, skip it
-2018-09-24 18:22:19,171 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\cura.log, skip it
-2018-09-24 18:22:19,176 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\packages.json, skip it
-2018-09-24 18:22:19,182 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\plugins.json, skip it
-2018-09-24 18:22:19,187 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\uranium.lock, skip it
-2018-09-24 18:22:19,196 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\cura.log, skip it
-2018-09-24 18:22:19,201 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\packages.json, skip it
-2018-09-24 18:22:19,207 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\plugins.json, skip it
-2018-09-24 18:22:19,212 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\uranium.lock, skip it
-2018-09-24 18:22:19,220 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\cura.log, skip it
-2018-09-24 18:22:19,225 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\packages.json, skip it
-2018-09-24 18:22:19,230 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\plugins.json, skip it
-2018-09-24 18:22:19,235 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [275]: Failed to get file version: .\uranium.lock, skip it
-2018-09-24 18:22:19,255 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [177]: Socket state changed to Listening
-2018-09-24 18:22:19,305 - INFO - [MainThread] UM.Backend.Backend.startEngine [74]: Started engine process: C:\Program Files\Ultimaker Cura 3.4\CuraEngine.exe
-2018-09-24 18:22:19,310 - DEBUG - [MainThread] UM.Backend.Backend._backendLog [94]: [Backend] Calling engine with: ['C:\\Program Files\\Ultimaker Cura 3.4\\CuraEngine.exe', 'connect', '127.0.0.1:49674', '-j', 'C:\\Program Files\\Ultimaker Cura 3.4\\resources\\definitions\\fdmprinter.def.json', '']
-2018-09-24 18:22:19,503 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] 
-2018-09-24 18:22:19,508 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] Cura_SteamEngine version 3.4.1
-2018-09-24 18:22:19,511 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] Copyright (C) 2018 Ultimaker
-2018-09-24 18:22:19,515 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] 
-2018-09-24 18:22:19,518 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] This program is free software: you can redistribute it and/or modify
-2018-09-24 18:22:19,526 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] it under the terms of the GNU Affero General Public License as published by
-2018-09-24 18:22:19,528 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [181]: Socket state changed to Connected
-2018-09-24 18:22:19,533 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] the Free Software Foundation, either version 3 of the License, or
-2018-09-24 18:22:19,538 - DEBUG - [MainThread] UM.Backend.Backend._onSocketStateChanged [171]: Backend connected on port 49674
-2018-09-24 18:22:19,541 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] (at your option) any later version.
-2018-09-24 18:22:19,548 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] 
-2018-09-24 18:22:19,552 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [empty_definition_changes] added.
-2018-09-24 18:22:19,557 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] This program is distributed in the hope that it will be useful,
-2018-09-24 18:22:19,562 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [empty_variant] added.
-2018-09-24 18:22:19,563 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] but WITHOUT ANY WARRANTY; without even the implied warranty of
-2018-09-24 18:22:19,569 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [empty_material] added.
-2018-09-24 18:22:19,570 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-2018-09-24 18:22:19,577 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [empty_quality] added.
-2018-09-24 18:22:19,579 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] GNU Affero General Public License for more details.
-2018-09-24 18:22:19,585 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] 
-2018-09-24 18:22:19,591 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [empty_quality_changes] added.
-2018-09-24 18:22:19,594 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] You should have received a copy of the GNU Affero General Public License
-2018-09-24 18:22:19,599 - DEBUG - [Thread-10] UM.Backend.Backend._backendLog [94]: [Backend] along with this program.  If not, see <http://www.gnu.org/licenses/>.
-2018-09-24 18:22:23,326 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [103]: Select build plate: 0
-2018-09-24 18:22:23,331 - INFO - [MainThread] cura.CuraApplication.run [677]: Initializing variant manager
-2018-09-24 18:22:23,339 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container ultimaker_s5_aluminum
-2018-09-24 18:22:23,347 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [ultimaker_s5_aluminum] added.
-2018-09-24 18:22:23,349 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container ultimaker_s5
-2018-09-24 18:22:23,973 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [248]: The definition cache for definition ultimaker_s5 failed to pickle.
-2018-09-24 18:22:23,977 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [ultimaker_s5] added.
-2018-09-24 18:22:23,985 - DEBUG - [MainThread] cura.Machines.VariantManager.initialize [67]: Exclude variant [empty_variant]
-2018-09-24 18:22:23,987 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container ultimaker_s5_glass
-2018-09-24 18:22:23,993 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [ultimaker_s5_glass] added.
-2018-09-24 18:22:24,002 - INFO - [MainThread] cura.CuraApplication.run [681]: Initializing material manager
-2018-09-24 18:22:24,090 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding dsm_novamid1070_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,095 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pla_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,097 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pva_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,102 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_hips_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,106 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_abs_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,109 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_nylon_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,112 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pva_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,115 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding dsm_novamid1070_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,120 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_hips_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,124 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_petg_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,129 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_hips_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,135 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pc_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,139 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding dsm_arnitel2045_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,141 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pc_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,146 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_nylon_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,150 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_petg_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,153 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pla_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,156 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding dsm_arnitel2045_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,159 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pc_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,162 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_abs_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,165 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding dsm_arnitel2045_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,168 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_abs_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,171 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pla_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,174 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding dsm_novamid1070_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,176 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_petg_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,180 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_nylon_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,184 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pva_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:22:24,189 - INFO - [MainThread] cura.CuraApplication.run [686]: Initializing quality manager
-2018-09-24 18:22:24,212 - DEBUG - [MainThread] cura.Machines.QualityManager.initialize [145]: Lookup tables updated.
-2018-09-24 18:22:24,216 - INFO - [MainThread] cura.CuraApplication.run [691]: Initializing machine manager
-2018-09-24 18:22:24,221 - INFO - [MainThread] cura.CuraApplication.run [694]: Initializing machine error checker
-2018-09-24 18:22:24,857 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [256]: Creating post processing plugin view.
-2018-09-24 18:22:24,866 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [BQ_PauseAtHeight] added.
-2018-09-24 18:22:24,869 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [2703745802984] added.
-2018-09-24 18:22:24,869 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [155]: Begin loading of script: BQ_PauseAtHeight
-2018-09-24 18:22:24,882 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [ChangeAtZ] added.
-2018-09-24 18:22:24,887 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [2703745805672] added.
-2018-09-24 18:22:24,888 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [155]: Begin loading of script: ChangeAtZ
-2018-09-24 18:22:24,895 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [ExampleScript] added.
-2018-09-24 18:22:24,899 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [2703745804552] added.
-2018-09-24 18:22:24,899 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [155]: Begin loading of script: ExampleScript
-2018-09-24 18:22:24,907 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [FilamentChange] added.
-2018-09-24 18:22:24,913 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [2703780591544] added.
-2018-09-24 18:22:24,913 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [155]: Begin loading of script: FilamentChange
-2018-09-24 18:22:24,924 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [PauseAtHeight] added.
-2018-09-24 18:22:24,929 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [2703745880416] added.
-2018-09-24 18:22:24,930 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [155]: Begin loading of script: PauseAtHeight
-2018-09-24 18:22:24,940 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [PauseAtHeightforRepetier] added.
-2018-09-24 18:22:24,944 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [2703780593000] added.
-2018-09-24 18:22:24,945 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [155]: Begin loading of script: PauseAtHeightforRepetier
-2018-09-24 18:22:24,953 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [SearchAndReplace] added.
-2018-09-24 18:22:24,958 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [2703780590592] added.
-2018-09-24 18:22:24,959 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [155]: Begin loading of script: SearchAndReplace
-2018-09-24 18:22:24,974 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [Stretch] added.
-2018-09-24 18:22:24,978 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [2703745957056] added.
-2018-09-24 18:22:24,979 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [155]: Begin loading of script: Stretch
-2018-09-24 18:22:25,148 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [172]: Loading theme file: C:\Program Files\Ultimaker Cura 3.4\resources\themes\cura-light\theme.json
-2018-09-24 18:22:25,272 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [244]: Loaded theme C:\Program Files\Ultimaker Cura 3.4\resources\themes\cura-light
-2018-09-24 18:22:25,321 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [263]: Post processing view created.
-2018-09-24 18:22:25,538 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container fdmprinter
-2018-09-24 18:22:25,910 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [248]: The definition cache for definition fdmprinter failed to pickle.
-2018-09-24 18:22:25,919 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [fdmprinter] added.
-2018-09-24 18:22:25,943 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [15]: Updating CustomQualityProfilesDropDownMenuModel.
-2018-09-24 18:22:25,946 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [20]: No active GlobalStack, set CustomQualityProfilesDropDownMenuModel as empty.
-2018-09-24 18:22:25,949 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [50]: Updating QualityProfilesDropDownMenuModel.
-2018-09-24 18:22:25,952 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [55]: No active GlobalStack, set quality profile model as empty.
-2018-09-24 18:22:26,699 - WARNING - [MainThread] UM.Qt.Bindings.Theme.getColor [101]: No color black defined in Theme
-2018-09-24 18:22:27,045 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [301]: file:///C:/Program Files/Ultimaker Cura 3.4/resources/qml/Topbar.qml:19: TypeError: Cannot read property 'stageId' of null
-2018-09-24 18:22:27,049 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [301]: file:///C:/Program Files/Ultimaker Cura 3.4/resources/qml/Topbar.qml:104: TypeError: Cannot read property 'stageId' of null
-2018-09-24 18:22:27,053 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [301]: file:///C:/Program Files/Ultimaker Cura 3.4/resources/qml/Topbar.qml:175: TypeError: Cannot read property 'stageId' of null
-2018-09-24 18:22:27,058 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [301]: file:///C:/Program Files/Ultimaker Cura 3.4/resources/qml/Cura.qml:433: TypeError: Cannot read property 'mainComponent' of null
-2018-09-24 18:22:27,062 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [301]: file:///C:/Program Files/Ultimaker Cura 3.4/resources/qml/Cura.qml:427: TypeError: Cannot read property 'mainComponent' of null
-2018-09-24 18:22:27,065 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [301]: file:///C:/Program Files/Ultimaker Cura 3.4/resources/qml/Cura.qml:465: TypeError: Cannot read property 'sidebarComponent' of null
-2018-09-24 18:22:27,068 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [301]: file:///C:/Program Files/Ultimaker Cura 3.4/resources/qml/Cura.qml:497: TypeError: Cannot read property 'sidebarComponent' of null
-2018-09-24 18:22:27,079 - DEBUG - [MainThread] UM3NetworkPrinting.DiscoverUM3Action._createAdditionalComponentsView [166]: Creating additional ui components for UM3.
-2018-09-24 18:22:27,138 - DEBUG - [MainThread] UM3NetworkPrinting.DiscoverUM3Action.startDiscovery [39]: Starting device discovery.
-2018-09-24 18:22:27,194 - DEBUG - [MainThread] UM.Controller.setActiveStage [164]: Setting active stage to PrepareStage
-2018-09-24 18:22:27,418 - DEBUG - [MainThread] cura.Machines.Models.GenericMaterialsModel._update [23]: Updating GenericMaterialsModel.
-2018-09-24 18:22:27,422 - DEBUG - [MainThread] cura.Machines.Models.BrandMaterialsModel._update [86]: Updating BrandMaterialsModel.
-2018-09-24 18:22:27,427 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [32]: Updating NozzleModel.
-2018-09-24 18:22:27,470 - DEBUG - [MainThread] cura.Machines.Models.BuildPlateModel._update [33]: Updating BuildPlateModel.
-2018-09-24 18:22:27,533 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [301]: file:///C:/Program Files/Ultimaker Cura 3.4/resources/qml/SidebarHeader.qml:546:9: QML : Binding loop detected for property "width"
-2018-09-24 18:22:27,578 - DEBUG - [MainThread] UM.Controller.setActiveView [97]: Setting active view to SolidView
-2018-09-24 18:22:27,584 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [97]: Creating model checker view.
-2018-09-24 18:22:27,596 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [106]: Model checker view created.
-2018-09-24 18:22:27,597 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [77]: Creating dialog [MoreInfoWindow.qml]
-2018-09-24 18:22:27,720 - DEBUG - [MainThread] cura.CuraApplication.run [723]: Booting Cura took 11.406131505966187 seconds
-2018-09-24 18:22:28,027 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [183]: Support for Vertex Array Objects: True
-2018-09-24 18:22:28,040 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [92]: Initialized OpenGL subsystems.
-2018-09-24 18:22:28,043 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [93]: OpenGL Version:  4.0.0 - Build 10.18.10.4358
-2018-09-24 18:22:28,046 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [94]: OpenGL Vendor:   Intel
-2018-09-24 18:22:28,048 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [95]: OpenGL Renderer: Intel(R) HD Graphics 4000
-2018-09-24 18:22:28,052 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.4\resources\shaders\default.shader]...
-2018-09-24 18:22:28,059 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.4\resources\shaders\selection.shader]...
-2018-09-24 18:22:28,064 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.4\resources\shaders\default.shader]...
-2018-09-24 18:22:28,069 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.4\resources\shaders\composite.shader]...
-2018-09-24 18:22:28,079 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.4\resources\shaders\overhang.shader]...
-2018-09-24 18:22:28,089 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.4\resources\shaders\striped.shader]...
-2018-09-24 18:22:28,099 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.4\resources\shaders\transparent_object.shader]...
-2018-09-24 18:22:28,106 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.4\resources\shaders\striped.shader]...
-2018-09-24 18:22:28,116 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.4\resources\shaders\platform.shader]...
-2018-09-24 18:22:38,167 - DEBUG - [MainThread] cura.AutoSave._onTimeout [49]: Autosaving preferences, instances and profiles
-2018-09-24 18:22:43,056 - INFO - [MainThread] UserAgreement.UserAgreement.didAgree [37]: User agreed to the user agreement
-2018-09-24 18:22:53,050 - DEBUG - [MainThread] cura.AutoSave._onTimeout [49]: Autosaving preferences, instances and profiles
-2018-09-24 18:23:06,600 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container custom
-2018-09-24 18:23:06,916 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [248]: The definition cache for definition custom failed to pickle.
-2018-09-24 18:23:06,951 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom] added.
-2018-09-24 18:23:06,992 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [Custom FDM printer OpenFab_settings] added.
-2018-09-24 18:23:06,995 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [Custom FDM printer OpenFab_user] added.
-2018-09-24 18:23:06,996 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container generic_pla
-2018-09-24 18:23:07,018 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker2_plus] added.
-2018-09-24 18:23:07,021 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker2_plus_0.25_mm] added.
-2018-09-24 18:23:07,024 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker2_plus_0.4_mm] added.
-2018-09-24 18:23:07,027 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker2_plus_0.6_mm] added.
-2018-09-24 18:23:07,030 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker2_plus_0.8_mm] added.
-2018-09-24 18:23:07,032 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker2_extended_plus] added.
-2018-09-24 18:23:07,035 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker2_extended_plus_0.25_mm] added.
-2018-09-24 18:23:07,037 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker2_extended_plus_0.4_mm] added.
-2018-09-24 18:23:07,040 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker2_extended_plus_0.6_mm] added.
-2018-09-24 18:23:07,043 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker2_extended_plus_0.8_mm] added.
-2018-09-24 18:23:07,045 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker2] added.
-2018-09-24 18:23:07,048 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker2_go] added.
-2018-09-24 18:23:07,051 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker2_extended] added.
-2018-09-24 18:23:07,055 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker_original] added.
-2018-09-24 18:23:07,058 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker3] added.
-2018-09-24 18:23:07,061 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker3_BB_0.4] added.
-2018-09-24 18:23:07,064 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker3_BB_0.8] added.
-2018-09-24 18:23:07,068 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker3_AA_0.25] added.
-2018-09-24 18:23:07,071 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker3_AA_0.4] added.
-2018-09-24 18:23:07,073 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker3_AA_0.8] added.
-2018-09-24 18:23:07,076 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker3_extended] added.
-2018-09-24 18:23:07,078 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker3_extended_BB_0.4] added.
-2018-09-24 18:23:07,082 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker3_extended_BB_0.8] added.
-2018-09-24 18:23:07,086 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker3_extended_AA_0.25] added.
-2018-09-24 18:23:07,089 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker3_extended_AA_0.4] added.
-2018-09-24 18:23:07,093 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker3_extended_AA_0.8] added.
-2018-09-24 18:23:07,096 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker_s5] added.
-2018-09-24 18:23:07,100 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker_s5_BB_0.4] added.
-2018-09-24 18:23:07,104 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker_s5_BB_0.8] added.
-2018-09-24 18:23:07,107 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker_s5_AA_0.25] added.
-2018-09-24 18:23:07,111 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker_s5_AA_0.4] added.
-2018-09-24 18:23:07,114 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_ultimaker_s5_AA_0.8] added.
-2018-09-24 18:23:07,118 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_imade3d_jellybox] added.
-2018-09-24 18:23:07,121 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_imade3d_jellybox_0.4_mm] added.
-2018-09-24 18:23:07,124 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla_imade3d_jellybox_0.4_mm_2-fans] added.
-2018-09-24 18:23:07,127 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [generic_pla] added.
-2018-09-24 18:23:07,128 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container custom_extruder_1
-2018-09-24 18:23:07,172 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_1] added.
-2018-09-24 18:23:07,208 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_1 #2_settings] added.
-2018-09-24 18:23:07,212 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_1 #2_user] added.
-2018-09-24 18:23:07,214 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [74]: Extruder[custom_extruder_1 #2] added to [Custom FDM printer OpenFab] at position [0]
-2018-09-24 18:23:07,217 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_1 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:07,218 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container custom_extruder_2
-2018-09-24 18:23:07,271 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_2] added.
-2018-09-24 18:23:07,307 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_2 #2_settings] added.
-2018-09-24 18:23:07,310 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_2 #2_user] added.
-2018-09-24 18:23:07,312 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [74]: Extruder[custom_extruder_2 #2] added to [Custom FDM printer OpenFab] at position [1]
-2018-09-24 18:23:07,315 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_2 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:07,316 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container custom_extruder_3
-2018-09-24 18:23:07,363 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_3] added.
-2018-09-24 18:23:07,405 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_3 #2_settings] added.
-2018-09-24 18:23:07,408 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_3 #2_user] added.
-2018-09-24 18:23:07,410 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [74]: Extruder[custom_extruder_3 #2] added to [Custom FDM printer OpenFab] at position [2]
-2018-09-24 18:23:07,413 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_3 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:07,413 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container custom_extruder_4
-2018-09-24 18:23:07,467 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_4] added.
-2018-09-24 18:23:07,505 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_4 #2_settings] added.
-2018-09-24 18:23:07,508 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_4 #2_user] added.
-2018-09-24 18:23:07,511 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [74]: Extruder[custom_extruder_4 #2] added to [Custom FDM printer OpenFab] at position [3]
-2018-09-24 18:23:07,514 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_4 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:07,515 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container custom_extruder_5
-2018-09-24 18:23:07,569 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_5] added.
-2018-09-24 18:23:07,606 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_5 #2_settings] added.
-2018-09-24 18:23:07,610 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_5 #2_user] added.
-2018-09-24 18:23:07,612 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [74]: Extruder[custom_extruder_5 #2] added to [Custom FDM printer OpenFab] at position [4]
-2018-09-24 18:23:07,615 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_5 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:07,616 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container custom_extruder_6
-2018-09-24 18:23:07,667 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_6] added.
-2018-09-24 18:23:07,705 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_6 #2_settings] added.
-2018-09-24 18:23:07,708 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_6 #2_user] added.
-2018-09-24 18:23:07,711 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [74]: Extruder[custom_extruder_6 #2] added to [Custom FDM printer OpenFab] at position [5]
-2018-09-24 18:23:07,713 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_6 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:07,714 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container custom_extruder_7
-2018-09-24 18:23:07,762 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_7] added.
-2018-09-24 18:23:07,804 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_7 #2_settings] added.
-2018-09-24 18:23:07,808 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_7 #2_user] added.
-2018-09-24 18:23:07,811 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [74]: Extruder[custom_extruder_7 #2] added to [Custom FDM printer OpenFab] at position [6]
-2018-09-24 18:23:07,814 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_7 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:07,815 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container custom_extruder_8
-2018-09-24 18:23:07,875 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_8] added.
-2018-09-24 18:23:07,927 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_8 #2_settings] added.
-2018-09-24 18:23:07,931 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_8 #2_user] added.
-2018-09-24 18:23:07,934 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [74]: Extruder[custom_extruder_8 #2] added to [Custom FDM printer OpenFab] at position [7]
-2018-09-24 18:23:07,937 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_8 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:07,951 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_8 #2] added.
-2018-09-24 18:23:07,964 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_2 #2] added.
-2018-09-24 18:23:07,978 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_3 #2] added.
-2018-09-24 18:23:07,990 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_6 #2] added.
-2018-09-24 18:23:08,003 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_1 #2] added.
-2018-09-24 18:23:08,015 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_5 #2] added.
-2018-09-24 18:23:08,027 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_7 #2] added.
-2018-09-24 18:23:08,039 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [custom_extruder_4 #2] added.
-2018-09-24 18:23:08,040 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container normal
-2018-09-24 18:23:08,046 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [normal] added.
-2018-09-24 18:23:08,063 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [Custom FDM printer OpenFab] added.
-2018-09-24 18:23:08,075 - DEBUG - [MainThread] cura.Machines.Models.GenericMaterialsModel._update [23]: Updating GenericMaterialsModel.
-2018-09-24 18:23:08,079 - DEBUG - [MainThread] cura.Machines.Models.BrandMaterialsModel._update [86]: Updating BrandMaterialsModel.
-2018-09-24 18:23:08,390 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [15]: Updating CustomQualityProfilesDropDownMenuModel.
-2018-09-24 18:23:08,393 - INFO - [MainThread] cura.Machines.QualityManager.getQualityChangesGroups [188]: Cannot find node for machine def [fdmprinter] in QualityChanges lookup table
-2018-09-24 18:23:08,396 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [50]: Updating QualityProfilesDropDownMenuModel.
-2018-09-24 18:23:08,397 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container coarse
-2018-09-24 18:23:08,403 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [coarse] added.
-2018-09-24 18:23:08,423 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container draft
-2018-09-24 18:23:08,429 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [draft] added.
-2018-09-24 18:23:08,448 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container extra_coarse
-2018-09-24 18:23:08,453 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [extra_coarse] added.
-2018-09-24 18:23:08,473 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container fast
-2018-09-24 18:23:08,480 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [fast] added.
-2018-09-24 18:23:08,535 - DEBUG - [MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [52]: Loading container high
-2018-09-24 18:23:08,540 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.addContainer [369]: Container [high] added.
-2018-09-24 18:23:08,685 - DEBUG - [MainThread] cura.Machines.Models.GenericMaterialsModel._update [23]: Updating GenericMaterialsModel.
-2018-09-24 18:23:08,691 - DEBUG - [MainThread] cura.Machines.Models.BrandMaterialsModel._update [86]: Updating BrandMaterialsModel.
-2018-09-24 18:23:08,714 - DEBUG - [MainThread] cura.Machines.Models.GenericMaterialsModel._update [23]: Updating GenericMaterialsModel.
-2018-09-24 18:23:08,719 - DEBUG - [MainThread] cura.Machines.Models.BrandMaterialsModel._update [86]: Updating BrandMaterialsModel.
-2018-09-24 18:23:08,740 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [32]: Updating NozzleModel.
-2018-09-24 18:23:08,743 - DEBUG - [MainThread] cura.Machines.Models.BuildPlateModel._update [33]: Updating BuildPlateModel.
-2018-09-24 18:23:08,747 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [15]: Updating CustomQualityProfilesDropDownMenuModel.
-2018-09-24 18:23:08,750 - INFO - [MainThread] cura.Machines.QualityManager.getQualityChangesGroups [188]: Cannot find node for machine def [fdmprinter] in QualityChanges lookup table
-2018-09-24 18:23:08,752 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [50]: Updating QualityProfilesDropDownMenuModel.
-2018-09-24 18:23:08,859 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [15]: Updating CustomQualityProfilesDropDownMenuModel.
-2018-09-24 18:23:08,862 - INFO - [MainThread] cura.Machines.QualityManager.getQualityChangesGroups [188]: Cannot find node for machine def [fdmprinter] in QualityChanges lookup table
-2018-09-24 18:23:08,864 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [50]: Updating QualityProfilesDropDownMenuModel.
-2018-09-24 18:23:08,875 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_2 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:08,878 - WARNING - [MainThread] UM.Settings.ContainerStack.addMetaDataEntry [170]: Meta data with key machine was already added.
-2018-09-24 18:23:08,880 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [219]: Extruder [custom_extruder_2 #2] has already been registered on machine [Custom FDM printer OpenFab], not doing anything
-2018-09-24 18:23:08,883 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_7 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:08,885 - WARNING - [MainThread] UM.Settings.ContainerStack.addMetaDataEntry [170]: Meta data with key machine was already added.
-2018-09-24 18:23:08,888 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [219]: Extruder [custom_extruder_7 #2] has already been registered on machine [Custom FDM printer OpenFab], not doing anything
-2018-09-24 18:23:08,890 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_8 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:08,892 - WARNING - [MainThread] UM.Settings.ContainerStack.addMetaDataEntry [170]: Meta data with key machine was already added.
-2018-09-24 18:23:08,895 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [219]: Extruder [custom_extruder_8 #2] has already been registered on machine [Custom FDM printer OpenFab], not doing anything
-2018-09-24 18:23:08,897 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_1 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:08,899 - WARNING - [MainThread] UM.Settings.ContainerStack.addMetaDataEntry [170]: Meta data with key machine was already added.
-2018-09-24 18:23:08,901 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [219]: Extruder [custom_extruder_1 #2] has already been registered on machine [Custom FDM printer OpenFab], not doing anything
-2018-09-24 18:23:08,904 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_6 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:08,906 - WARNING - [MainThread] UM.Settings.ContainerStack.addMetaDataEntry [170]: Meta data with key machine was already added.
-2018-09-24 18:23:08,908 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [219]: Extruder [custom_extruder_6 #2] has already been registered on machine [Custom FDM printer OpenFab], not doing anything
-2018-09-24 18:23:08,910 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_3 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:08,912 - WARNING - [MainThread] UM.Settings.ContainerStack.addMetaDataEntry [170]: Meta data with key machine was already added.
-2018-09-24 18:23:08,915 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [219]: Extruder [custom_extruder_3 #2] has already been registered on machine [Custom FDM printer OpenFab], not doing anything
-2018-09-24 18:23:08,918 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_4 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:08,920 - WARNING - [MainThread] UM.Settings.ContainerStack.addMetaDataEntry [170]: Meta data with key machine was already added.
-2018-09-24 18:23:08,922 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [219]: Extruder [custom_extruder_4 #2] has already been registered on machine [Custom FDM printer OpenFab], not doing anything
-2018-09-24 18:23:08,924 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [70]: Extruder [custom_extruder_5 #2] has already been added to this stack [Custom FDM printer OpenFab]
-2018-09-24 18:23:08,927 - WARNING - [MainThread] UM.Settings.ContainerStack.addMetaDataEntry [170]: Meta data with key machine was already added.
-2018-09-24 18:23:08,929 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [219]: Extruder [custom_extruder_5 #2] has already been registered on machine [Custom FDM printer OpenFab], not doing anything
-2018-09-24 18:23:09,249 - DEBUG - [MainThread] cura.Machines.Models.GenericMaterialsModel._update [23]: Updating GenericMaterialsModel.
-2018-09-24 18:23:09,257 - DEBUG - [MainThread] cura.Machines.Models.BrandMaterialsModel._update [86]: Updating BrandMaterialsModel.
-2018-09-24 18:23:09,362 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [15]: Updating CustomQualityProfilesDropDownMenuModel.
-2018-09-24 18:23:09,371 - INFO - [MainThread] cura.Machines.QualityManager.getQualityChangesGroups [188]: Cannot find node for machine def [fdmprinter] in QualityChanges lookup table
-2018-09-24 18:23:09,378 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [50]: Updating QualityProfilesDropDownMenuModel.
-2018-09-24 18:23:09,392 - INFO - [MainThread] cura.Settings.MachineManager._initMachineState [337]: Machine 'Custom FDM printer OpenFab' quality set to 'normal'
-2018-09-24 18:23:09,541 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [15]: Updating CustomQualityProfilesDropDownMenuModel.
-2018-09-24 18:23:09,545 - INFO - [MainThread] cura.Machines.QualityManager.getQualityChangesGroups [188]: Cannot find node for machine def [fdmprinter] in QualityChanges lookup table
-2018-09-24 18:23:09,551 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [50]: Updating QualityProfilesDropDownMenuModel.
-2018-09-24 18:23:09,700 - DEBUG - [MainThread] cura.Machines.Models.GenericMaterialsModel._update [23]: Updating GenericMaterialsModel.
-2018-09-24 18:23:09,707 - DEBUG - [MainThread] cura.Machines.Models.BrandMaterialsModel._update [86]: Updating BrandMaterialsModel.
-2018-09-24 18:23:09,772 - DEBUG - [MainThread] cura.Machines.Models.GenericMaterialsModel._update [23]: Updating GenericMaterialsModel.
-2018-09-24 18:23:09,779 - DEBUG - [MainThread] cura.Machines.Models.BrandMaterialsModel._update [86]: Updating BrandMaterialsModel.
-2018-09-24 18:23:09,812 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [32]: Updating NozzleModel.
-2018-09-24 18:23:09,816 - DEBUG - [MainThread] cura.Machines.Models.BuildPlateModel._update [33]: Updating BuildPlateModel.
-2018-09-24 18:23:09,822 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [15]: Updating CustomQualityProfilesDropDownMenuModel.
-2018-09-24 18:23:09,825 - INFO - [MainThread] cura.Machines.QualityManager.getQualityChangesGroups [188]: Cannot find node for machine def [fdmprinter] in QualityChanges lookup table
-2018-09-24 18:23:09,827 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [50]: Updating QualityProfilesDropDownMenuModel.
-2018-09-24 18:23:10,287 - INFO - [MainThread] cura.Machines.MaterialManager._updateMaps [236]: Updating material lookup data ...
-2018-09-24 18:23:10,333 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding dsm_novamid1070_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,339 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pla_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,344 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pva_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,350 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_hips_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,357 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_abs_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,362 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_nylon_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,370 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pva_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,375 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding dsm_novamid1070_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,383 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_hips_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,388 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_petg_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,397 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_hips_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,403 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pc_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,407 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding dsm_arnitel2045_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,410 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pc_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,413 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_nylon_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,417 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_petg_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,419 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pla_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,422 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding dsm_arnitel2045_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,427 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pc_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,430 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_abs_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,433 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding dsm_arnitel2045_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,437 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_abs_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,441 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pla_175_cartesio_0.25mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,443 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding dsm_novamid1070_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,446 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_petg_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,450 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_nylon_175_cartesio_0.4mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,453 - WARNING - [MainThread] cura.Machines.MaterialManager.initialize [230]: Not adding generic_pva_175_cartesio_0.8mm_thermoplastic_extruder to the material manager because the variant does not exist.
-2018-09-24 18:23:10,459 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1163]: Updating quality/quality_changes due to material change
-2018-09-24 18:23:10,463 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1170]: Current quality type = [normal]
-2018-09-24 18:23:10,467 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1184]: Current available quality type [normal] is available, applying changes.
-2018-09-24 18:23:10,471 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [15]: Updating CustomQualityProfilesDropDownMenuModel.
-2018-09-24 18:23:10,473 - INFO - [MainThread] cura.Machines.QualityManager.getQualityChangesGroups [188]: Cannot find node for machine def [fdmprinter] in QualityChanges lookup table
-2018-09-24 18:23:10,476 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [50]: Updating QualityProfilesDropDownMenuModel.
-2018-09-24 18:23:10,489 - DEBUG - [MainThread] cura.Machines.Models.GenericMaterialsModel._update [23]: Updating GenericMaterialsModel.
-2018-09-24 18:23:10,494 - DEBUG - [MainThread] cura.Machines.Models.BrandMaterialsModel._update [86]: Updating BrandMaterialsModel.
-2018-09-24 18:23:10,632 - DEBUG - [MainThread] cura.Machines.QualityManager.initialize [145]: Lookup tables updated.
-2018-09-24 18:23:10,635 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [15]: Updating CustomQualityProfilesDropDownMenuModel.
-2018-09-24 18:23:10,639 - INFO - [MainThread] cura.Machines.QualityManager.getQualityChangesGroups [188]: Cannot find node for machine def [fdmprinter] in QualityChanges lookup table
-2018-09-24 18:23:10,642 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [50]: Updating QualityProfilesDropDownMenuModel.
-2018-09-24 18:23:10,655 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [32]: Updating NozzleModel.
-2018-09-24 18:23:10,659 - DEBUG - [MainThread] cura.Machines.Models.GenericMaterialsModel._update [23]: Updating GenericMaterialsModel.
-2018-09-24 18:23:10,662 - DEBUG - [MainThread] cura.Machines.Models.BrandMaterialsModel._update [86]: Updating BrandMaterialsModel.
-2018-09-24 18:23:10,667 - DEBUG - [MainThread] cura.Machines.Models.BrandMaterialsModel._update [86]: Updating BrandMaterialsModel.
-2018-09-24 18:23:10,672 - DEBUG - [MainThread] cura.Machines.Models.GenericMaterialsModel._update [23]: Updating GenericMaterialsModel.
-2018-09-24 18:23:10,761 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [129]: New error check scheduled.
-2018-09-24 18:23:10,821 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.4\resources\shaders\default.shader]...
-2018-09-24 18:23:10,827 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.4\resources\shaders\grid.shader]...
-2018-09-24 18:23:12,405 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [133]: Need to check for errors again. Discard the current progress and reschedule a check.
-2018-09-24 18:23:12,524 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [129]: New error check scheduled.
-2018-09-24 18:23:12,704 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [133]: Need to check for errors again. Discard the current progress and reschedule a check.
-2018-09-24 18:23:12,844 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [129]: New error check scheduled.
-2018-09-24 18:23:17,143 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [181]: Error check finished, result = False, time = 4.3s
-2018-09-24 18:23:21,300 - DEBUG - [MainThread] cura.AutoSave._onTimeout [49]: Autosaving preferences, instances and profiles
-2018-09-24 18:24:45,209 - DEBUG - [MainThread] cura.AutoSave._onTimeout [49]: Autosaving preferences, instances and profiles
-2018-09-24 18:31:06,081 - DEBUG - [MainThread] UM.Qt.QtApplication.windowClosed [379]: Shutting down cura
-2018-09-24 18:31:06,227 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [276]: Attempting to kill the engine process
-2018-09-24 18:31:06,227 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [282]: Killing engine process
-2018-09-24 18:31:06,232 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [285]: Engine process is killed. Received return code 1
+2018-09-25 18:12:01,684 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin ConsoleLogger
+2018-09-25 18:12:01,879 - INFO - [(8652)-MainThread] CuraEngineBackend.CuraEngineBackend.__init__ [65]: Found CuraEngine at: C:\Program Files\Ultimaker Cura 3.2\CuraEngine.exe
+2018-09-25 18:12:01,883 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin CuraEngineBackend
+2018-09-25 18:12:01,956 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin CuraProfileReader
+2018-09-25 18:12:02,006 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin CuraProfileWriter
+2018-09-25 18:12:02,082 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin OBJReader
+2018-09-25 18:12:02,114 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin OBJWriter
+2018-09-25 18:12:02,230 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin STLReader
+2018-09-25 18:12:02,283 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin STLWriter
+2018-09-25 18:12:02,330 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin FileLogger
+2018-09-25 18:12:02,600 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin FirmwareUpdateChecker
+2018-09-25 18:12:02,647 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin GCodeProfileReader
+2018-09-25 18:12:02,731 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin GCodeReader
+2018-09-25 18:12:02,785 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin GCodeWriter
+2018-09-25 18:12:02,847 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin ImageReader
+2018-09-25 18:12:02,901 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin LegacyProfileReader
+2018-09-25 18:12:02,948 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin LocalContainerProvider
+2018-09-25 18:12:03,001 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin LocalFileOutputDevice
+2018-09-25 18:12:03,048 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin MachineSettingsAction
+2018-09-25 18:12:03,132 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin MonitorStage
+2018-09-25 18:12:03,217 - WARNING - [(8652)-MainThread] UM.Preferences.getValue [81]: Tried to get the value of non-existing setting cura/active_mode.
+2018-09-25 18:12:03,233 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin PerObjectSettingsTool
+2018-09-25 18:12:03,317 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin PluginBrowser
+2018-09-25 18:12:03,402 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin PostProcessingPlugin
+2018-09-25 18:12:03,480 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin PrepareStage
+2018-09-25 18:12:03,618 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin RemovableDriveOutputDevice
+2018-09-25 18:12:03,734 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin SimulationView
+2018-09-25 18:12:03,803 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin SliceInfoPlugin
+2018-09-25 18:12:03,866 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin SolidView
+2018-09-25 18:12:03,919 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin CameraTool
+2018-09-25 18:12:03,966 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin MirrorTool
+2018-09-25 18:12:04,035 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin RotateTool
+2018-09-25 18:12:04,104 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin ScaleTool
+2018-09-25 18:12:04,151 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin SelectionTool
+2018-09-25 18:12:04,235 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin TranslateTool
+2018-09-25 18:12:04,336 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin UltimakerMachineActions
+2018-09-25 18:12:04,568 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin UM3NetworkPrinting
+2018-09-25 18:12:04,652 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin UpdateChecker
+2018-09-25 18:12:04,652 - INFO - [(6564)-Thread-3] UpdateChecker.UpdateCheckerJob.run [34]: Checking for new version of cura
+2018-09-25 18:12:04,683 - WARNING - [(6564)-Thread-3] UpdateChecker.UpdateCheckerJob.run [40]: Failed to check for new version: <urlopen error [Errno 11001] getaddrinfo failed>
+2018-09-25 18:12:04,821 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin USBPrinting
+2018-09-25 18:12:04,868 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin UserAgreementPlugin
+2018-09-25 18:12:04,969 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin VersionUpgrade21to22
+2018-09-25 18:12:05,038 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin VersionUpgrade22to24
+2018-09-25 18:12:05,122 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin VersionUpgrade25to26
+2018-09-25 18:12:05,191 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin VersionUpgrade26to27
+2018-09-25 18:12:05,254 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin VersionUpgrade27to30
+2018-09-25 18:12:05,322 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin VersionUpgrade30to31
+2018-09-25 18:12:05,369 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin SimpleView
+2018-09-25 18:12:05,454 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin X3DReader
+2018-09-25 18:12:05,554 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin XmlMaterialProfile
+2018-09-25 18:12:05,623 - INFO - [(8652)-MainThread] UM.PluginRegistry.loadPlugin [238]: Loaded plugin XRayView
+2018-09-25 18:12:05,655 - INFO - [(8652)-MainThread] UM.VersionUpgradeManager.upgrade [113]: Looking for old configuration files to upgrade.
+2018-09-25 18:12:05,940 - DEBUG - [(8652)-MainThread] UM.Backend.Backend._onSocketError [199]: Socket was unable to bind to port, increasing port number to 49675
+2018-09-25 18:12:05,940 - DEBUG - [(8652)-MainThread] UM.Backend.Backend._createSocket [213]: Previous socket existed. Closing that first.
+2018-09-25 18:12:05,955 - DEBUG - [(8652)-MainThread] CuraEngineBackend.CuraEngineBackend._terminate [262]: Attempting to kill the engine process
+2018-09-25 18:12:05,955 - DEBUG - [(8652)-MainThread] UM.Backend.Backend._createSocket [213]: Previous socket existed. Closing that first.
+2018-09-25 18:12:06,194 - DEBUG - [(8652)-MainThread] UM.Backend.Backend._logSocketState [173]: Socket state changed to Listening
+2018-09-25 18:12:06,256 - INFO - [(8652)-MainThread] UM.Backend.Backend.startEngine [74]: Started engine process: C:\Program Files\Ultimaker Cura 3.2\CuraEngine.exe
+2018-09-25 18:12:06,256 - DEBUG - [(8652)-MainThread] UM.Backend.Backend._backendLog [90]: [Backend] Calling engine with: ['C:\\Program Files\\Ultimaker Cura 3.2\\CuraEngine.exe', 'connect', '127.0.0.1:49675', '-j', 'C:\\Program Files\\Ultimaker Cura 3.2\\resources\\definitions\\fdmprinter.def.json', '']
+2018-09-25 18:12:06,495 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] 
+2018-09-25 18:12:06,495 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] Cura_SteamEngine version DEV
+2018-09-25 18:12:06,510 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] Copyright (C) 2017 Ultimaker
+2018-09-25 18:12:06,510 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] 
+2018-09-25 18:12:06,510 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] This program is free software: you can redistribute it and/or modify
+2018-09-25 18:12:06,526 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] it under the terms of the GNU Affero General Public License as published by
+2018-09-25 18:12:06,526 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] the Free Software Foundation, either version 3 of the License, or
+2018-09-25 18:12:06,541 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] (at your option) any later version.
+2018-09-25 18:12:06,541 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] 
+2018-09-25 18:12:06,541 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] This program is distributed in the hope that it will be useful,
+2018-09-25 18:12:06,557 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] but WITHOUT ANY WARRANTY; without even the implied warranty of
+2018-09-25 18:12:06,557 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+2018-09-25 18:12:06,557 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] GNU Affero General Public License for more details.
+2018-09-25 18:12:06,573 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] 
+2018-09-25 18:12:06,573 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] You should have received a copy of the GNU Affero General Public License
+2018-09-25 18:12:06,573 - DEBUG - [(8576)-Thread-12] UM.Backend.Backend._backendLog [90]: [Backend] along with this program.  If not, see <http://www.gnu.org/licenses/>.
+2018-09-25 18:12:06,958 - DEBUG - [(8652)-MainThread] UM.Backend.Backend._logSocketState [177]: Socket state changed to Connected
+2018-09-25 18:12:06,958 - DEBUG - [(8652)-MainThread] UM.Backend.Backend._onSocketStateChanged [167]: Backend connected on port 49675
+2018-09-25 18:12:16,179 - WARNING - [(8652)-MainThread] UM.Preferences.getValue [81]: Tried to get the value of non-existing setting view/filter_current_build_plate.
+2018-09-25 18:12:16,179 - DEBUG - [(8652)-MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [101]: Select build plate: 0
+2018-09-25 18:12:16,179 - DEBUG - [(8652)-MainThread] UM.Controller.setActiveStage [155]: Setting active stage to PrepareStage
+2018-09-25 18:12:16,179 - DEBUG - [(8652)-MainThread] UM.Controller.setActiveView [92]: Setting active view to SolidView
+2018-09-25 18:12:16,395 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container Custom FDM printer
+2018-09-25 18:12:16,395 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container Custom FDM printer_user
+2018-09-25 18:12:16,395 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container low
+2018-09-25 18:12:16,395 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container Custom FDM printer_settings
+2018-09-25 18:12:16,412 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom
+2018-09-25 18:12:16,517 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_4 #2
+2018-09-25 18:12:16,532 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_4 #2_user
+2018-09-25 18:12:16,532 - WARNING - [(4668)-Thread-4] FirmwareUpdateChecker.FirmwareUpdateCheckerJob.run [77]: Failed to check for new version: <urlopen error [Errno 11001] getaddrinfo failed>
+2018-09-25 18:12:16,532 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container normal
+2018-09-25 18:12:16,532 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container generic_pla
+2018-09-25 18:12:16,548 - DEBUG - [(8652)-MainThread] XmlMaterialProfile.XmlMaterialProfile.deserialize [544]: Found definition for machine ID ultimaker2_plus
+2018-09-25 18:12:16,564 - DEBUG - [(8652)-MainThread] XmlMaterialProfile.XmlMaterialProfile.deserialize [544]: Found definition for machine ID ultimaker2_extended_plus
+2018-09-25 18:12:16,595 - DEBUG - [(8652)-MainThread] XmlMaterialProfile.XmlMaterialProfile.deserialize [544]: Found definition for machine ID ultimaker2
+2018-09-25 18:12:16,595 - DEBUG - [(8652)-MainThread] XmlMaterialProfile.XmlMaterialProfile.deserialize [544]: Found definition for machine ID ultimaker2_go
+2018-09-25 18:12:16,595 - DEBUG - [(8652)-MainThread] XmlMaterialProfile.XmlMaterialProfile.deserialize [544]: Found definition for machine ID ultimaker2_extended
+2018-09-25 18:12:16,595 - DEBUG - [(8652)-MainThread] XmlMaterialProfile.XmlMaterialProfile.deserialize [544]: Found definition for machine ID ultimaker_original
+2018-09-25 18:12:16,595 - DEBUG - [(8652)-MainThread] XmlMaterialProfile.XmlMaterialProfile.deserialize [544]: Found definition for machine ID ultimaker3
+2018-09-25 18:12:16,617 - DEBUG - [(8652)-MainThread] XmlMaterialProfile.XmlMaterialProfile.deserialize [544]: Found definition for machine ID ultimaker3_extended
+2018-09-25 18:12:16,648 - DEBUG - [(8652)-MainThread] XmlMaterialProfile.XmlMaterialProfile.deserialize [544]: Found definition for machine ID imade3d_jellybox
+2018-09-25 18:12:16,664 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_4 #2_settings
+2018-09-25 18:12:16,680 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_4
+2018-09-25 18:12:16,695 - INFO - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [73]: Extruder[custom_extruder_4 #2] added to [Custom FDM printer] at position [3]
+2018-09-25 18:12:16,695 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,695 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_2 #2
+2018-09-25 18:12:16,695 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_2 #2_user
+2018-09-25 18:12:16,712 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_2 #2_settings
+2018-09-25 18:12:16,715 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_2
+2018-09-25 18:12:16,717 - INFO - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [73]: Extruder[custom_extruder_2 #2] added to [Custom FDM printer] at position [1]
+2018-09-25 18:12:16,733 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,733 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_7 #2
+2018-09-25 18:12:16,733 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_7 #2_user
+2018-09-25 18:12:16,748 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_7 #2_settings
+2018-09-25 18:12:16,748 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_7
+2018-09-25 18:12:16,764 - INFO - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [73]: Extruder[custom_extruder_7 #2] added to [Custom FDM printer] at position [6]
+2018-09-25 18:12:16,764 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,764 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_5 #2
+2018-09-25 18:12:16,764 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_5 #2_user
+2018-09-25 18:12:16,780 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_5 #2_settings
+2018-09-25 18:12:16,780 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_5
+2018-09-25 18:12:16,795 - INFO - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [73]: Extruder[custom_extruder_5 #2] added to [Custom FDM printer] at position [4]
+2018-09-25 18:12:16,795 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,795 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_3 #2
+2018-09-25 18:12:16,811 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_3 #2_user
+2018-09-25 18:12:16,815 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_3 #2_settings
+2018-09-25 18:12:16,817 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_3
+2018-09-25 18:12:16,833 - INFO - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [73]: Extruder[custom_extruder_3 #2] added to [Custom FDM printer] at position [2]
+2018-09-25 18:12:16,833 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,833 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_1 #2
+2018-09-25 18:12:16,833 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_1 #2_user
+2018-09-25 18:12:16,849 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_1 #2_settings
+2018-09-25 18:12:16,849 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_1
+2018-09-25 18:12:16,864 - INFO - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [73]: Extruder[custom_extruder_1 #2] added to [Custom FDM printer] at position [0]
+2018-09-25 18:12:16,864 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,864 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_6 #2
+2018-09-25 18:12:16,880 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_6 #2_user
+2018-09-25 18:12:16,880 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_6 #2_settings
+2018-09-25 18:12:16,880 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_6
+2018-09-25 18:12:16,896 - INFO - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [73]: Extruder[custom_extruder_6 #2] added to [Custom FDM printer] at position [5]
+2018-09-25 18:12:16,896 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,912 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_8 #2
+2018-09-25 18:12:16,917 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_8 #2_user
+2018-09-25 18:12:16,917 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_8 #2_settings
+2018-09-25 18:12:16,917 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container custom_extruder_8
+2018-09-25 18:12:16,933 - INFO - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [73]: Extruder[custom_extruder_8 #2] added to [Custom FDM printer] at position [7]
+2018-09-25 18:12:16,948 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,948 - WARNING - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [69]: Extruder [custom_extruder_4 #2] has already been added to this stack [Custom FDM printer]
+2018-09-25 18:12:16,948 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,948 - WARNING - [(8652)-MainThread] cura.Settings.ExtruderManager.registerExtruder [223]: Extruder [custom_extruder_4 #2] has already been registered on machine [Custom FDM printer], not doing anything
+2018-09-25 18:12:16,948 - WARNING - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [69]: Extruder [custom_extruder_2 #2] has already been added to this stack [Custom FDM printer]
+2018-09-25 18:12:16,964 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,964 - WARNING - [(8652)-MainThread] cura.Settings.ExtruderManager.registerExtruder [223]: Extruder [custom_extruder_2 #2] has already been registered on machine [Custom FDM printer], not doing anything
+2018-09-25 18:12:16,964 - WARNING - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [69]: Extruder [custom_extruder_7 #2] has already been added to this stack [Custom FDM printer]
+2018-09-25 18:12:16,964 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,964 - WARNING - [(8652)-MainThread] cura.Settings.ExtruderManager.registerExtruder [223]: Extruder [custom_extruder_7 #2] has already been registered on machine [Custom FDM printer], not doing anything
+2018-09-25 18:12:16,980 - WARNING - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [69]: Extruder [custom_extruder_5 #2] has already been added to this stack [Custom FDM printer]
+2018-09-25 18:12:16,980 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,980 - WARNING - [(8652)-MainThread] cura.Settings.ExtruderManager.registerExtruder [223]: Extruder [custom_extruder_5 #2] has already been registered on machine [Custom FDM printer], not doing anything
+2018-09-25 18:12:16,980 - WARNING - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [69]: Extruder [custom_extruder_3 #2] has already been added to this stack [Custom FDM printer]
+2018-09-25 18:12:16,980 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,980 - WARNING - [(8652)-MainThread] cura.Settings.ExtruderManager.registerExtruder [223]: Extruder [custom_extruder_3 #2] has already been registered on machine [Custom FDM printer], not doing anything
+2018-09-25 18:12:16,995 - WARNING - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [69]: Extruder [custom_extruder_1 #2] has already been added to this stack [Custom FDM printer]
+2018-09-25 18:12:16,995 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:16,995 - WARNING - [(8652)-MainThread] cura.Settings.ExtruderManager.registerExtruder [223]: Extruder [custom_extruder_1 #2] has already been registered on machine [Custom FDM printer], not doing anything
+2018-09-25 18:12:16,995 - WARNING - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [69]: Extruder [custom_extruder_6 #2] has already been added to this stack [Custom FDM printer]
+2018-09-25 18:12:16,995 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:17,013 - WARNING - [(8652)-MainThread] cura.Settings.ExtruderManager.registerExtruder [223]: Extruder [custom_extruder_6 #2] has already been registered on machine [Custom FDM printer], not doing anything
+2018-09-25 18:12:17,016 - WARNING - [(8652)-MainThread] cura.Settings.GlobalStack.addExtruder [69]: Extruder [custom_extruder_8 #2] has already been added to this stack [Custom FDM printer]
+2018-09-25 18:12:17,017 - WARNING - [(8652)-MainThread] UM.Settings.ContainerStack.addMetaDataEntry [166]: Meta data with key machine was already added.
+2018-09-25 18:12:17,017 - WARNING - [(8652)-MainThread] cura.Settings.ExtruderManager.registerExtruder [223]: Extruder [custom_extruder_8 #2] has already been registered on machine [Custom FDM printer], not doing anything
+2018-09-25 18:12:17,049 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container fdmprinter
+2018-09-25 18:12:18,284 - DEBUG - [(8652)-MainThread] cura.Settings.MachineManager._checkStacksHaveErrors [423]: Checking 2 stacks for errors took 0.93 s
+2018-09-25 18:12:19,355 - DEBUG - [(8652)-MainThread] cura.Settings.MachineManager._checkStacksHaveErrors [423]: Checking 2 stacks for errors took 0.94 s
+2018-09-25 18:12:21,929 - DEBUG - [(8652)-MainThread] UM.Qt.Bindings.Theme.load [172]: Loading theme file: C:\Program Files\Ultimaker Cura 3.2\resources\themes\cura-light\theme.json
+2018-09-25 18:12:22,392 - DEBUG - [(8652)-MainThread] UM.Qt.Bindings.Theme.load [240]: Loaded theme C:\Program Files\Ultimaker Cura 3.2\resources\themes\cura-light
+2018-09-25 18:12:22,962 - DEBUG - [(8652)-MainThread] UM.Controller.setActiveView [92]: Setting active view to SolidView
+2018-09-25 18:12:23,931 - WARNING - [(8652)-MainThread] UM.Qt.QtApplication.__onQmlWarning [267]: file:///C:/Program Files/Ultimaker Cura 3.2/qml/QtQuick/Controls/Private/BasicTableView.qml:613:17: QML Item: Binding loop detected for property "width"
+2018-09-25 18:12:25,394 - DEBUG - [(8652)-MainThread] UM3NetworkPrinting.DiscoverUM3Action._createAdditionalComponentsView [136]: Creating additional ui components for UM3.
+2018-09-25 18:12:25,479 - DEBUG - [(8652)-MainThread] UM3NetworkPrinting.DiscoverUM3Action.startDiscovery [36]: Starting printer discovery.
+2018-09-25 18:12:25,532 - DEBUG - [(8652)-MainThread] UM.Controller.setActiveStage [155]: Setting active stage to PrepareStage
+2018-09-25 18:12:26,695 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container coarse
+2018-09-25 18:12:26,704 - DEBUG - [(8652)-MainThread] cura.Settings.MachineManager._onInstanceContainersChanged [365]: Connecting profiles model...
+2018-09-25 18:12:26,705 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container draft
+2018-09-25 18:12:26,711 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container extra_coarse
+2018-09-25 18:12:26,717 - DEBUG - [(8652)-MainThread] LocalContainerProvider.LocalContainerProvider.loadContainer [50]: Loading container high
+2018-09-25 18:12:28,533 - DEBUG - [(8652)-MainThread] cura.Settings.MachineManager._checkStacksHaveErrors [423]: Checking 2 stacks for errors took 1.39 s
+2018-09-25 18:12:29,767 - DEBUG - [(8652)-MainThread] cura.Settings.MachineManager._checkStacksHaveErrors [423]: Checking 2 stacks for errors took 0.81 s
+2018-09-25 18:12:31,045 - DEBUG - [(8652)-MainThread] cura.Settings.MachineManager._checkStacksHaveErrors [423]: Checking 2 stacks for errors took 0.78 s
+2018-09-25 18:12:31,840 - DEBUG - [(8652)-MainThread] UM.Qt.QtRenderer._initialize [184]: Support for Vertex Array Objects: True
+2018-09-25 18:12:31,879 - DEBUG - [(8652)-MainThread] UM.View.GL.OpenGL.__init__ [92]: Initialized OpenGL subsystems.
+2018-09-25 18:12:31,881 - DEBUG - [(8652)-MainThread] UM.View.GL.OpenGL.__init__ [93]: OpenGL Version:  4.1.0 - Build 20.19.15.4835
+2018-09-25 18:12:31,883 - DEBUG - [(8652)-MainThread] UM.View.GL.OpenGL.__init__ [94]: OpenGL Vendor:   Intel
+2018-09-25 18:12:31,885 - DEBUG - [(8652)-MainThread] UM.View.GL.OpenGL.__init__ [95]: OpenGL Renderer: Intel(R) HD Graphics 5300
+2018-09-25 18:12:31,888 - DEBUG - [(8652)-MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.2\resources\shaders\default.shader]...
+2018-09-25 18:12:31,910 - DEBUG - [(8652)-MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.2\resources\shaders\selection.shader]...
+2018-09-25 18:12:31,921 - DEBUG - [(8652)-MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.2\resources\shaders\default.shader]...
+2018-09-25 18:12:31,930 - DEBUG - [(8652)-MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.2\resources\shaders\composite.shader]...
+2018-09-25 18:12:31,957 - DEBUG - [(8652)-MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.2\resources\shaders\overhang.shader]...
+2018-09-25 18:12:31,975 - DEBUG - [(8652)-MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.2\resources\shaders\striped.shader]...
+2018-09-25 18:12:31,993 - DEBUG - [(8652)-MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.2\resources\shaders\transparent_object.shader]...
+2018-09-25 18:12:32,010 - DEBUG - [(8652)-MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.2\resources\shaders\striped.shader]...
+2018-09-25 18:12:32,025 - DEBUG - [(8652)-MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.2\resources\shaders\default.shader]...
+2018-09-25 18:12:32,033 - DEBUG - [(8652)-MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.2\resources\shaders\grid.shader]...
+2018-09-25 18:12:32,048 - DEBUG - [(8652)-MainThread] UM.View.GL.ShaderProgram.load [55]: Loading shader file [C:\Program Files\Ultimaker Cura 3.2\resources\shaders\platform.shader]...
+2018-09-25 18:12:33,164 - DEBUG - [(8652)-MainThread] cura.Settings.MachineManager._checkStacksHaveErrors [423]: Checking 2 stacks for errors took 0.78 s
+2018-09-25 18:12:34,387 - DEBUG - [(8652)-MainThread] cura.Settings.MachineManager._checkStacksHaveErrors [423]: Checking 2 stacks for errors took 0.77 s
+2018-09-25 18:12:34,889 - DEBUG - [(8652)-MainThread] CuraEngineBackend.CuraEngineBackend.slice [197]: starting to slice!
+2018-09-25 18:12:34,889 - DEBUG - [(8652)-MainThread] CuraEngineBackend.CuraEngineBackend.slice [214]: Going to slice build plate [0]!
+2018-09-25 18:12:34,889 - DEBUG - [(8652)-MainThread] CuraEngineBackend.CuraEngineBackend.slice [218]: Build plate 0 has no objects to be sliced, skipping
+2018-09-25 18:12:39,980 - DEBUG - [(1084)-Thread-13] USBPrinting.USBPrinterOutputDevice._connect [340]: Attempting to connect to COM7
+2018-09-25 18:12:39,980 - WARNING - [(8652)-MainThread] UM.OutputDevice.OutputDeviceManager.removeOutputDevice [126]: Could not find output device with id COM7 to remove
+2018-09-25 18:12:41,629 - INFO - [(1084)-Thread-13] USBPrinting.USBPrinterOutputDevice._connect [348]: Could not establish connection on COM7: 'Timeout'. Device is not arduino based.
+2018-09-25 18:12:41,629 - DEBUG - [(1084)-Thread-13] USBPrinting.USBPrinterOutputDevice._connect [356]: Attempting to connect to printer with serial COM7 on baud rate 115200
+2018-09-25 18:12:43,274 - DEBUG - [(8652)-MainThread] AutoSave.AutoSave._onTimeout [71]: Autosaving preferences, instances and profiles
+2018-09-25 18:12:53,142 - DEBUG - [(1084)-Thread-13] USBPrinting.USBPrinterOutputDevice._connect [382]: Correct response for auto-baudrate detection received.
+2018-09-25 18:12:58,173 - DEBUG - [(1084)-Thread-13] USBPrinting.USBPrinterOutputDevice._connect [356]: Attempting to connect to printer with serial COM7 on baud rate 250000
+2018-09-25 18:12:59,701 - DEBUG - [(1084)-Thread-13] USBPrinting.USBPrinterOutputDevice._connect [382]: Correct response for auto-baudrate detection received.
+2018-09-25 18:13:04,728 - DEBUG - [(1084)-Thread-13] USBPrinting.USBPrinterOutputDevice._connect [356]: Attempting to connect to printer with serial COM7 on baud rate 230400
+2018-09-25 18:13:06,246 - DEBUG - [(1084)-Thread-13] USBPrinting.USBPrinterOutputDevice._connect [382]: Correct response for auto-baudrate detection received.
+2018-09-25 18:13:09,626 - DEBUG - [(8652)-MainThread] UM.Qt.QtApplication.windowClosed [345]: Shutting down cura
+2018-09-25 18:13:09,689 - DEBUG - [(8652)-MainThread] CuraEngineBackend.CuraEngineBackend._terminate [262]: Attempting to kill the engine process
+2018-09-25 18:13:09,689 - DEBUG - [(8652)-MainThread] CuraEngineBackend.CuraEngineBackend._terminate [268]: Killing engine process
+2018-09-25 18:13:09,689 - DEBUG - [(8652)-MainThread] CuraEngineBackend.CuraEngineBackend._terminate [271]: Engine process is killed. Received return code 1
